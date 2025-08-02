@@ -32,8 +32,8 @@ services:
     env_file:
       - .env
     volumes:
-      - /path/to/wireguard/config:/config
-      - /lib/modules:/lib/modules #optional
+      - /wireguard/config:/config
+      - /wireguard/lib/modules:/lib/modules #optional
     ports:
       - 51820:51820/udp
     sysctls:
