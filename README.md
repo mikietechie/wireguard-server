@@ -5,7 +5,7 @@ A Wireguard VPN Server, for a Google Cloud VM!
 ## Getting Started
 
 1. `touch .env`
-2. `docker compose -f "docker-compose.yml" up -d --build`
+2. `sudo docker compose -f "docker-compose.yml" up -d --build`
 
 ## Clients
 
