@@ -22,11 +22,11 @@ services:
       - TZ=Etc/UTC
       # - SERVERURL=wireguard.domain.com #optional
       - SERVERPORT=51820 #optional
-      - PEERS=mikeubuntu,mikewindows,mikeandroid,peer1,peer2,peer3 #optional
+      - PEERS=mikeubuntu,mikewindows,mikeandroid,1,2,3 #optional
       - PEERDNS=auto #optional
       - INTERNAL_SUBNET=10.13.13.0 #optional
       - ALLOWEDIPS=0.0.0.0/0 #optional
-      - PERSISTENTKEEPALIVE_PEERS= #optional
+      - PERSISTENTKEEPALIVE_PEERS=all #optional
       - LOG_CONFS=true #optional
       - MTU=1460
     env_file:
